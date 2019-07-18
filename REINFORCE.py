@@ -10,6 +10,7 @@ learning_rate = 0.0002
 gamma = 0.98
 
 
+# policy gradient
 class Policy(nn.Module):
     def __init__(self):
         super(Policy, self).__init__()
